@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HangFire.Core" Version="1.7.11"/>
+    <PackageReference Include="HangFire.SqlServer" Version="1.7.11"/>
+    <PackageReference Include="Ninject" Version="3.3.4"/>    
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5"/>
+    <PackageReference Include="Ninject.Extensions.Conventions" Version="3.3.0" />
+  </ItemGroup>
+</Project>

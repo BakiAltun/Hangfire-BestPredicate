@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HangFire" Version="1.7.11"/>
+    <PackageReference Include="HangFire.Ninject" Version="1.0.0" />
+  </ItemGroup>
+</Project>

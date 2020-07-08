@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CronExpressionDescriptor</id>
+    <version>1.10.1</version>
+    <title>Cron Expression Descriptor</title>
+    <authors>Brady Holt, Renato Lima, Ivan Santos, Siarhei Khalipski, Mustafa SADEDÄ°L, Star Peng, TotalMace</authors>
+    <owners>Brady Holt</owners>
+    <licenseUrl>https://raw.github.com/bradyholt/cron-expression-descriptor/master/LICENSE</licenseUrl>
+    <projectUrl>http://bradyholt.github.io/cron-expression-descriptor/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library that converts cron expressions into human readable strings.</description>
+    <releaseNotes>v1.10.1 - Changing between hour description so second segment shows :59 rather than :00 in the next hour</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>cron, schedule, quartz, quartz.net, cron expression</tags>
+  </metadata>
+</package>

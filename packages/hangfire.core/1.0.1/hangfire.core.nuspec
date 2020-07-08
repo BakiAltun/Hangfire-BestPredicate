@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Hangfire.Core</id>
+    <version>1.0.1</version>
+    <title>Hangfire Core Components</title>
+    <authors>Sergey Odinokov</authors>
+    <owners>odinserj</owners>
+    <licenseUrl>https://raw.github.com/odinserj/Hangfire/master/LICENSE.md</licenseUrl>
+    <projectUrl>http://hangfire.io/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core components for Hangfire (background job system for ASP.NET applications).</description>
+    <releaseNotes>https://github.com/odinserj/Hangfire/releases</releaseNotes>
+    <copyright>Copyright © 2013-2014 Sergey Odinokov</copyright>
+    <tags>Hangfire OWIN Long-Running Background Fire-And-Forget Delayed Recurring Tasks Jobs Threading Queue</tags>
+    <dependencies>
+      <dependency id="Owin" version="1.0" />
+      <dependency id="Microsoft.Owin" version="2.1.0" />
+      <dependency id="Common.Logging" version="2.2.0" />
+      <dependency id="Newtonsoft.Json" version="5.0.0" />
+      <dependency id="ncrontab" version="1.0.0" />
+      <dependency id="CronExpressionDescriptor" version="1.10.1" />
+    </dependencies>
+  </metadata>
+</package>
